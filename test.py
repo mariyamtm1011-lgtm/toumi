@@ -1,1 +1,2 @@
-echo "just a test"
+echo "just a test" 
+ech "test 2"
