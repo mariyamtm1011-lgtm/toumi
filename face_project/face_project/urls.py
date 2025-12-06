@@ -19,4 +19,6 @@ from django.urls import path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+     path('my-logs/', views.my_logs, name='my_logs'),
+
 ]

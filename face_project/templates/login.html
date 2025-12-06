@@ -1,0 +1,17 @@
+<h1>Mes Logs d'accès</h1>
+
+<table border="1">
+    <tr>
+        <th>Date</th>
+        <th>Résultat</th>
+        <th>Note</th>
+    </tr>
+
+    {% for log in logs %}
+    <tr>
+        <td>{{ log.date_time }}</td>
+        <td>{{ log.result }}</td>
+        <td>{{ log.note }}</td>
+    </tr>
+    {% endfor %}
+</table>
